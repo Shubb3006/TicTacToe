@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: aquamarine;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    padding:12px 0px;
+    font-size: 4rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.game{
+    display: grid;
+    grid-template-columns: repeat(3,9vw);
+    grid-template-rows: repeat(3,9vw);
+    margin: 50px 50px;
+}
+
+.box{
+    border: 2px solid black;
+    font-size: 5vw;
+    text-align: center;
+    
+}
+
+.bt-t{
+    border-top: 0px;
+}
+.bt-l{
+    border-left: 0px;
+}
+.bt-r{
+    border-right: 0px;
+}
+.bt-d{
+    border-bottom: 0px;
+}
+
+.box:hover{
+    background-color:rgb(92, 255, 201);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.gameinfo{
+    text-align:  center;
+    margin: 50px 0px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.gameinfo1{
+    text-align: center;
+}
+.imgbox{
+    height: 150px;
+    visibility: hidden;
+}
+
+.info{
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.reset{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 025px;
+    width: 10rem;
+    cursor: pointer;
+    background-color:beige;
+}
+
+.reset:hover{
+    background-color: aquamarine;
+    transition: 0.5s;
+}
